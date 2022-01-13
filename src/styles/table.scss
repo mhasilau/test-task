@@ -1,0 +1,42 @@
+@import './colors.scss';
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+  background-color: inherit;
+
+  td {
+    border: 1px solid $black;
+    width: 50%;
+  }
+
+  .color-marker {
+    background-color: $marker;
+  }
+
+  .personal-data {
+    text-align: center;
+    p {
+      margin: 5px;
+    }
+    img {
+      width: 60%;
+    }
+  }
+
+  .work-exrerience, .education, .add-information, .skills {
+    margin-bottom: 10px;
+
+    p {
+      margin: 0;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+  }
+}
+
+
+
